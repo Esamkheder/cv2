@@ -335,6 +335,9 @@ main {
   background: var(--bg-gradient-onyx);
   border-radius: 20px;
 }
+.avatar-box img{
+  border-radius: 20px;
+}
 
 .info-content .name {
   color: var(--white-2);
@@ -352,6 +355,7 @@ main {
   width: max-content;
   padding: 3px 12px;
   border-radius: 8px;
+  text-align: center;
 }
 
 .info_more-btn {
