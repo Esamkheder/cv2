@@ -316,7 +316,7 @@ main {
 
 .sidebar {
   margin-bottom: 15px;
-  max-height: 112px;
+  max-height: 140px;
   overflow: hidden;
   transition: var(--transition-2);
 }
@@ -1344,6 +1344,11 @@ textarea.form-input::-webkit-resizer { display: none; }
   .avatar-box { border-radius: 30px; }
 
   .avatar-box img { width: 120px; }
+  .avatar-box img { height:170px; }
+
+  .avatar-box img{
+    border-radius: 20px;
+  }
 
   .info-content .name { margin-bottom: 15px; }
 
